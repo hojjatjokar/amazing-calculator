@@ -5,4 +5,7 @@ module.exports = {
   testEnvironment: 'jsdom',
   modulePathIgnorePatterns: ['<rootDir>/cypress/'],
   setupFilesAfterEnv: ['<rootDir>/setupTests.ts'],
+  moduleNameMapper: {
+    '\\.(css|scss)$': '<rootDir>/__mocks__/styleMock.js',
+  },
 };
