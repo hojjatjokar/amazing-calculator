@@ -4,4 +4,5 @@ module.exports = {
   moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx'],
   testEnvironment: 'jsdom',
   modulePathIgnorePatterns: ['<rootDir>/cypress/'],
+  setupFilesAfterEnv: ['<rootDir>/setupTests.ts'],
 };
