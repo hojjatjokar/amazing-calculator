@@ -19,6 +19,14 @@
 6. Push your branch
 7. Create a PR
 
+## TODO
+
+- [ ] Basic functionalities
+- [ ] Keyboard shortcuts
+- [ ] PWA
+- [ ] Scientific mode
+- [ ] Coversion utils
+
 ## LICENSE
 
 Licensed under the MIT. See the LICENSE file for details.
