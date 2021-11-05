@@ -21,11 +21,33 @@
 
 ## TODO
 
+- [x] Document branching model
+- [ ] Optimize production build
+- [ ] Configure production deply
+- [ ] Configure deployment for each PR
+- [x] Configure ci:test
+- [ ] Configure ci:build
+- [ ] Configure ci:code-coverage
+- [ ] Configure ci:test
+- [ ] Add button Component
+- [ ] Add Display Component
 - [ ] Basic functionalities
 - [ ] Keyboard shortcuts
 - [ ] PWA
 - [ ] Scientific mode
-- [ ] Coversion utils
+- [ ] Conversion utils
+- [ ] Eslint config
+
+## Workflow
+
+we follow [Github flow](https://guides.github.com/introduction/flow/) as a branch-based workflow to add features and fix bugs. Briefly we should go these steps for each work:
+
+1. Create a branch
+2. Commit
+3. Create a PR
+4. Disccuss and review
+5. Deploy
+6. Merge to main
 
 ## LICENSE
 
