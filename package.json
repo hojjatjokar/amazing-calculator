@@ -8,7 +8,8 @@
     "prepare": "husky install",
     "start": "webpack serve --open --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src"
   },
   "author": "Hojjat Jokar",
   "license": "MIT",
@@ -24,10 +25,16 @@
     "@types/jest": "^27.0.2",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
     "autoprefixer": "^10.4.0",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.0",
     "cypress": "^8.7.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.2.3",
+    "eslint-plugin-react": "^7.26.1",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.0",
     "jest": "^27.3.1",
@@ -43,7 +50,10 @@
     "webpack-merge": "^5.8.0"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": [
+      "prettier --write --ignore-unknown",
+      "npm run lint"
+    ]
   },
   "dependencies": {
     "react": "^17.0.2",
