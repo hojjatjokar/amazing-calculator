@@ -9,7 +9,7 @@
     "start": "webpack serve --open --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js",
     "cypress:open": "cypress open",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx src"
+    "lint": "eslint ./src/*.tsx"
   },
   "author": "Hojjat Jokar",
   "license": "MIT",
@@ -51,9 +51,9 @@
   },
   "lint-staged": {
     "**/*": [
-      "prettier --write --ignore-unknown",
-      "npm run lint"
-    ]
+      "prettier --write --ignore-unknown"
+    ],
+    "*.{js,jsx,ts,tsx}": "npm run lint"
   },
   "dependencies": {
     "react": "^17.0.2",
