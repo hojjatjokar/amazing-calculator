@@ -1,7 +1,7 @@
 # Calculator
 
 [![Build CI](https://github.com/hojjatjokar/amazing-calculator/actions/workflows/build.yml/badge.svg)](https://github.com/hojjatjokar/amazing-calculator/actions/workflows/build.yml)
-[![Testing CI](https://github.com/hojjatjokar/amazing-calculator/actions/workflows/testing.yml/badge.svg)](https://github.com/hojjatjokar/amazing-calculator/actions/workflows/testing.yml)
+[![Testing CI](https://github.com/hojjatjokar/amazing-calculator/actions/workflows/test.yml/badge.svg)](https://github.com/hojjatjokar/amazing-calculator/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
